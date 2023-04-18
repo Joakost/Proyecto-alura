@@ -275,7 +275,7 @@ top: 440px; left: 240px ;
 
     }
 
-    @media (max-width:6000px){
+    @media (max-width:1200px){
 
         .texto1{
             position: relative;
@@ -297,7 +297,7 @@ top: 440px; left: 240px ;
 
     }
 
-    @media (max-width:600px){
+    @media (max-width:1200px){
 
         .boxbajoazul{
             vertical-align: middle;
