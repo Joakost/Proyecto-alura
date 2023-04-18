@@ -272,8 +272,7 @@ top: 440px; left: 240px ;
             background-color: #0b233a;
             width: 375px;
             height: 933px;
-            top: 622px;
-            left: -2277px;
+            
         }
 
 
@@ -322,7 +321,7 @@ top: 440px; left: 240px ;
             flex-direction: row;
             float: left;
             position: relative;
-            top: -190px;
+            top: 110px;
             left: 12px;
             
             }
@@ -345,25 +344,24 @@ top: 440px; left: 240px ;
                 flex-direction: row;
                 float: left;
                 position: relative;
-                top: -173px;
+                top: 119px;
                 left: 12px;
                
                 }
 
 
                 .box1{
-                    position: relative;
+                    
+                    position: absolute;
+                    top: 522px;
+                    left: 22px;
                     background-color: white;
                     width: 325px;
                     height: 264px;
-                    top: 40px;
-                    left: 1000px;
                     border-radius: 32px;
                     float: right;
                     box-shadow: 0px 24px 32px -8px #00000014;
-                    position: relative;
-                    top: 272px;
-                    left: -32px;
+                    
                 }
 
            .imagenizq{
@@ -404,10 +402,11 @@ top: 440px; left: 240px ;
                 background-color: #0b233a;
                 position: absolute;
                 bottom: -180px;
-                width: 100%;
+                width: 307px;
                 height: 92px;
                 color: white;
                 padding: 0%;
+                
             }
 
             .botoncopiar{
@@ -476,8 +475,8 @@ top: 440px; left: 240px ;
                 .textito{
                     position: absolute;
                     font-size: 14px;
-                    top: 282px;
-                    left: 83px;
+                    top: 315px;
+                    left: 85px;
                     color: aliceblue;
                     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                     font-weight: bold;
@@ -485,9 +484,9 @@ top: 440px; left: 240px ;
 
                 .img{
                     height: 32px;
-                    position: absolute;
-                    top: 290px;
-                    left: 44px;
+                    position: relative;
+                    top: 190px;
+                    left: -282px;
                 }
 
 }
