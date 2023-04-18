@@ -263,7 +263,7 @@ top: 440px; left: 240px ;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
-    @media (max-width:360px){
+   @media (max-width:1080px){
 
         .ico{
             position: relative;
@@ -272,11 +272,6 @@ top: 440px; left: 240px ;
             width: 80px;
             
         }
-
-    }
-
-    @media (max-width:1200px){
-
         .texto1{
             position: relative;
             top: -95px;
@@ -297,7 +292,7 @@ top: 440px; left: 240px ;
 
     }
 
-    @media (max-width:1200px){
+    @media (max-width:360px){
 
         .boxbajoazul{
             vertical-align: middle;
