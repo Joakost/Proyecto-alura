@@ -225,7 +225,7 @@ top: 440px; left: 240px ;
         }
     }   
 
-    footer{
+    .footer{
         background-color: #0b233a;
         position: absolute;
         bottom: -170px;
