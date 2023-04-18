@@ -10,20 +10,21 @@
     <script src="script.js"></script>
 </head>
 <body>
+        <div class="alertbox"></div>
         <div><img src="imagenes/icov2.png" alt="" srcset="" class="ico"></div>
         <div><input type="text," class="texto1" placeholder="Ingrese texto aqui" id="maintxt" onkeypress="return (event.charCode == 209 || event.charCode == 32 || event.charCode == 241 || (event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"> </div>
         <div class = "box1">
-            <img src="imagenes/marioneta.svg" alt="" srcset="" class="imagenizq" id="imgder"> 
-            <p class="t1" id="txtnone">Ningún mensaje fue encontrado</p>
-            <textarea class="texto_bajo" name="" id="inputxt" cols="30" rows="10" placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>
-            <button id="copy" class="botoncopiar" onclick="cut()">COPY</button>
-            
+        <img src="imagenes/marioneta.svg" alt="" srcset="" class="imagenizq" id="imgder"> 
+        <p class="t1" id="txtnone">Ningún mensaje fue encontrado</p>
+        <textarea class="texto_bajo" name="" id="inputxt" cols="30" rows="10" placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>
+        <button id="copy" class="botoncopiar" onclick="cut()">COPY</button>
+
         </div>
         <button class="boxbajoazul" onclick="encriptar()">ENCRIPTAR </button>
         <button class="boxbajogris" onclick="desencriptar()">DESENCRIPTAR</button>
         <div><img class="img" src="imagenes/burbuja-de-dialogo.png" alt="" sizes="" srcset=""><p class="textito">Solo letras minúsculas y sin acentos.</p></div>
         
-    <footer>
+    <footer class="footy">
         <a title="link" href="https://www.linkedin.com/in/joaquin-stutz-66b60b32/"><img  class="link" src="imagenes/linkedin.png" alt="linka" srcset="" ></a>
         <a title="hub" href="https://github.com/Joakost"><img class="hub" src="imagenes/logotipo-de-github.png" alt="hub" srcset=""></a>
         <a title="instagram" href="https://www.instagram.com/carpinchostudiodigital/"><img class="inst" src="imagenes/instagram.png" alt="" srcset=""></a>
