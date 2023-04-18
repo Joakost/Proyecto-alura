@@ -228,7 +228,7 @@ top: 440px; left: 240px ;
     .footy{
         background-color: #0b233a;
         position: absolute;
-        bottom: -170px;
+        bottom: -324px;
         width: 100%;
         height: 92px;
         color: white;
@@ -388,12 +388,13 @@ top: 440px; left: 240px ;
 
                 position: absolute;
                 top: 111px;
-                left: 5px;
+                left: 25px;
                 border: none;
                 outline: none;
                 font-size: 18px;
                 text-align: center;
                 height: 129px;
+                width: 268px;
                 
             }
 
@@ -427,7 +428,6 @@ top: 440px; left: 240px ;
             .boxbajoazul:hover{
                 vertical-align: middle;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                text-align: center;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 20px;
@@ -443,7 +443,7 @@ top: 440px; left: 240px ;
                 flex-direction: row;
                 float: left;
                 position: relative;
-                top: -190px;
+                top: 110px;
                 left: 12px;
         
         
@@ -456,7 +456,6 @@ top: 440px; left: 240px ;
                 font-weight: 400;
                 font-size: 20px;
                 line-height: 29px;
-                text-align: center;
                 color: #ffffff;
                 background-color: #0A3871;
                 width: 343px;
@@ -467,19 +466,22 @@ top: 440px; left: 240px ;
                 flex-direction: row;
                 float: left;
                 position: relative;
-                top: -173px;
+                top: 119px;
                 left: 12px;
                
                 }
 
                 .textito{
-                    position: absolute;
+                    position: relative;
                     font-size: 14px;
-                    top: 315px;
-                    left: 85px;
+                    top: -83px;
+                    left: 70px;
                     color: aliceblue;
                     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                     font-weight: bold;
+                    display: flex;
+                    margin: -10px;
+                    padding: 22px;
                 }
 
                 .img{
